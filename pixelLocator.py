@@ -9,6 +9,7 @@ indices = np.where(img2==[100])
 coordinates = zip(indices[0], indices[1])    #coordinates is the list of tuples. Each tuple represents a coordinate in image
 print(coordinates)
 for i in coordinates:
+	print(i)                      #displays coordinate of required pixel
 	img2[i[0], i[1]] = (0,0,255)   #changes pixel to red
 cv2.imshow('img2',img2)				#opens image window
 k = cv2.waitKey(0)
