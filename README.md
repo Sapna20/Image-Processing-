@@ -7,5 +7,7 @@ A short code to get to know the position of pixels of particular value on image 
 4. Press esc to exit the image window. Your original image is still the same.
 5. Coordinates of pixel of interest in image can also be displayed. Uncomment the "print(i)".
 
+******
+
 
 
